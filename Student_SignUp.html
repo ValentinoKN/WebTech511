@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student SignUp</title>
+    <style>
+        body {
+            background-color: #043172;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 100px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .container img {
+            max-width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .container input[type="text"],
+        .container input[type="email"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            background-color: #043172;
+            color: white;
+            cursor: pointer;
+        }
+
+        .container a {
+            color: #043172;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="Rect_RGIT.png" alt="Richfield Graduate Institute of Technology Logo">
+    <form action="Student_Login.html" method="post">
+        <input type="text" name="fullname" placeholder="Full Name and Surname" required>
+        <input type="text" name="studentid" placeholder="Student ID" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="Student_Login.html">Already Have an Account?</a>
+</div>
+
+</body>
+</html>

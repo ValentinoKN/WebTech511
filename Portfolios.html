@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolios</title>
+    <style>
+        body {
+            background-color: #043172;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #043172;
+        }
+
+        .logo {
+            width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .small-icon {
+            width: 50px;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .person {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .person img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .person h2 {
+            margin-top: 10px;
+        }
+
+        .person p {
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #043172;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="Student_Home.html" class="back-button">Back</a>
+        <img src="Rect_RGIT.png" alt="RGIT Logo" class="logo">
+        <img src="Square_RGIT.png" alt="Small Icon" class="small-icon">
+    </header>
+
+    <h2 style="text-align: center; margin-bottom: 20px; font-size: 50px;">Portfolios</h2>
+
+    <main>
+        <div class="person">
+            <img src="SRC_President.png" alt="SRC President">
+            <h2>SRC President</h2>
+            <p>Short description of the SRC President and their role.</p>
+        </div>
+        <div class="person">
+            <img src="Vice_President.png" alt="Vice President">
+            <h2>Vice President</h2>
+            <p>Short description of the Vice President and their role.</p>
+        </div>
+        <div class="person">
+            <img src="Secretary_General.png" alt="Secretary General">
+            <h2>Secretary General</h2>
+            <p>Short description of the Secretary General and their role.</p>
+        </div>
+        <div class="person">
+            <img src="Treasurer.png" alt="Treasurer">
+            <h2>Treasurer</h2>
+            <p>Short description of the Treasurer and their role.</p>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Removed the second "Portfolios" title -->
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richfield Graduate Institute of Technology</title>
+    <style>
+        body {
+            background-color: #043172;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #043172;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 300px; /* adjust the width as needed */
+        }
+
+        .small-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 50px; /* adjust the width as needed */
+        }
+
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        nav a:hover, .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Rect_RGIT.png" alt="RGIT Logo" />
+        <img src="Square_RGIT.png" alt="Small Icon" class="small-icon" />
+    </header>
+
+    <a href="Student_Home.html" class="back-button">Back</a>
+
+    <nav>
+        <a href="Portfolios.html">Portfolios</a>
+        <a href="Contact_Us.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">Resources 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Minutes.html">Minutes</a>
+                <a href="Reports.html">Reports</a>
+                <a href="Pol_Con.html">Policies and Constitutions</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Richfield Graduate Institute of Technology</h1>
+        <p>Explore the resources and information you need for your studies and beyond.</p>
+    </div>
+
+</body>
+
+</html>
